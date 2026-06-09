@@ -873,7 +873,7 @@ export const membersDescription: INodeProperties[] = [
 					"value": "github_followers"
 				},
 				{
-					"name": "Id",
+					"name": "ID",
 					"value": "id"
 				},
 				{
@@ -1894,7 +1894,7 @@ export const membersDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Url",
+			"displayName": "URL",
 			"name": "url",
 			"type": "string",
 			"default": "",
@@ -2122,7 +2122,7 @@ export const membersDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Url",
+			"displayName": "URL",
 			"name": "url",
 			"type": "string",
 			"default": "",
@@ -2376,7 +2376,7 @@ export const membersDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Url",
+			"displayName": "URL",
 			"name": "url",
 			"type": "string",
 			"default": "",
@@ -2487,7 +2487,7 @@ export const membersDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Organization Id",
+			"displayName": "Organization ID",
 			"name": "organization_id",
 			"required": true,
 			"default": "",

@@ -11,14 +11,14 @@ import { workspacesDescription } from './resources/workspaces';
 
 export class OrbitLove implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'orbit-love',
+		displayName: 'Orbit Love',
 		name: 'N8nDevOrbitLove',
 		icon: { light: 'file:./orbit-love.png', dark: 'file:./orbit-love.dark.png' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
 		description: 'Please see the complete Orbit API documentation at https://api.orbit.love/',
-		defaults: { name: 'orbit-love' },
+		defaults: { name: 'Orbit Love' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

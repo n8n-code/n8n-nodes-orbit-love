@@ -8,7 +8,7 @@ import type {
 export class OrbitLoveApi implements ICredentialType {
 	name = 'N8nDevOrbitLoveApi';
 
-	displayName = 'orbit-love API';
+	displayName = 'Orbit Love API';
 
 	icon: Icon = { light: 'file:../nodes/OrbitLove/orbit-love.png', dark: 'file:../nodes/OrbitLove/orbit-love.dark.png' };
 
@@ -22,7 +22,7 @@ export class OrbitLoveApi implements ICredentialType {
 			default: 'https://app.orbit.love/api/v1',
 			required: true,
 			placeholder: 'https://app.orbit.love/api/v1',
-			description: 'The base URL of your orbit-love API server',
+			description: 'The base URL of your Orbit Love API server',
 		},
 		{
 			displayName: 'API Key',

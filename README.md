@@ -53,17 +53,87 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Activity Types | Get list all activity types for a workspace |
-| Activities | Get list activities for a workspace, Post create a custom or a content activity for a new or existing member, Get list activities for a member, Post create a custom or a content activity for a member, Delete a post activity, Put update a custom activity for a member, Get list member activities in an organization |
-| Webhooks | Get list webhooks in a workspace, Post create a webhook, Delete a webhook, Put update a webhook |
-| Members | Get list members in a workspace, Post create or update a member, Get find a member by an identity, Delete a member, Put update a member, Delete remove identity from a member, Post add identity to a member, Get list members in an organization |
-| Notes | Get the members notes, Post create a note, Put update a note |
-| Organizations | Get list organizations in a workspace, Put update an organization |
-| Reports | Get a workspace stats |
-| Users | Get info about the current user |
-| Workspaces | Get all workspaces for the current user |
+<details>
+<summary><b>Activity Types</b> (1 operations)</summary>
+
+- Get List all activity types for a workspace
+
+</details>
+
+<details>
+<summary><b>Activities</b> (7 operations)</summary>
+
+- Get List activities for a workspace
+- Post Create a Custom or a Content activity for a new or existing member
+- Get List activities for a member
+- Post Create a Custom or a Content activity for a member
+- Delete a post activity
+- Put Update a custom activity for a member
+- Get List member activities in an organization
+
+</details>
+
+<details>
+<summary><b>Webhooks</b> (4 operations)</summary>
+
+- Get List webhooks in a workspace
+- Post Create a WEBHOOK
+- Delete a WEBHOOK
+- Put Update a WEBHOOK
+
+</details>
+
+<details>
+<summary><b>Members</b> (8 operations)</summary>
+
+- Get List members in a workspace
+- Post Create or update a member
+- Get Find a member by an identity
+- Delete a member
+- Put Update a member
+- Delete Remove identity from a member
+- Post Add identity to a member
+- Get List members in an organization
+
+</details>
+
+<details>
+<summary><b>Notes</b> (3 operations)</summary>
+
+- Get the member s notes
+- Post Create a note
+- Put Update a note
+
+</details>
+
+<details>
+<summary><b>Organizations</b> (2 operations)</summary>
+
+- Get List organizations in a workspace
+- Put Update an organization
+
+</details>
+
+<details>
+<summary><b>Reports</b> (1 operations)</summary>
+
+- Get a workspace stats
+
+</details>
+
+<details>
+<summary><b>Users</b> (1 operations)</summary>
+
+- Get info about the current user
+
+</details>
+
+<details>
+<summary><b>Workspaces</b> (1 operations)</summary>
+
+- Get all workspaces for the current user
+
+</details>
 
 ---
 

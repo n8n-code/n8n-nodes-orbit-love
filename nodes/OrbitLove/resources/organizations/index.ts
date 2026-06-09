@@ -301,7 +301,7 @@ export const organizationsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Organization Id",
+			"displayName": "Organization ID",
 			"name": "organization_id",
 			"required": true,
 			"default": "",
@@ -344,7 +344,7 @@ export const organizationsDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Crm Url",
+			"displayName": "Crm URL",
 			"name": "crm_url",
 			"type": "string",
 			"default": "",

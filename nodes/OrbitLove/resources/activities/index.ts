@@ -1363,7 +1363,7 @@ export const activitiesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"default": "",
@@ -1458,7 +1458,7 @@ export const activitiesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"default": "",
@@ -1787,7 +1787,7 @@ export const activitiesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Organization Id",
+			"displayName": "Organization ID",
 			"name": "organization_id",
 			"required": true,
 			"default": "",
