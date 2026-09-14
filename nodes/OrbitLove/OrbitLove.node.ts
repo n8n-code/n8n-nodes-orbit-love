@@ -10,32 +10,32 @@ import { usersDescription } from './resources/users';
 import { workspacesDescription } from './resources/workspaces';
 
 export class OrbitLove implements INodeType {
-	description: INodeTypeDescription = {
-		displayName: 'Orbit Love',
-		name: 'N8nDevOrbitLove',
-		icon: { light: 'file:./orbit-love.png', dark: 'file:./orbit-love.dark.png' },
-		group: ['input'],
-		version: 1,
-		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'Please see the complete Orbit API documentation at https://api.orbit.love/',
-		defaults: { name: 'Orbit Love' },
-		usableAsTool: true,
-		inputs: [NodeConnectionTypes.Main],
-		outputs: [NodeConnectionTypes.Main],
-		credentials: [
-			{
-				name: 'N8nDevOrbitLoveApi',
-				required: true,
-			},
-		],
-		requestDefaults: {
-			baseURL: '={{\$credentials.url}}',
-			headers: {
-				Accept: 'application/json',
-				'Content-Type': 'application/json',
-			},
-		},
-		properties: [
+        description: INodeTypeDescription = {
+                displayName: 'Orbit Love',
+                name: 'N8nDevOrbitLove',
+                icon: { light: 'file:./orbit-love.png', dark: 'file:./orbit-love.dark.png' },
+                group: ['input'],
+                version: 1,
+                subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
+                description: 'Consult Orbit API documentation at https://api.orbit.love/',
+                defaults: { name: 'Orbit Love' },
+                usableAsTool: true,
+                inputs: [NodeConnectionTypes.Main],
+                outputs: [NodeConnectionTypes.Main],
+                credentials: [
+                        {
+                                name: 'N8nDevOrbitLoveApi',
+                                required: true,
+                        },
+                ],
+                requestDefaults: {
+                        baseURL: '={{\$credentials.url}}',
+                        headers: {
+                                Accept: 'application/json',
+                                'Content-Type': 'application/json',
+                        },
+                },
+                properties: [
 		{
 			"displayName": "Resource",
 			"name": "resource",
@@ -99,6 +99,6 @@ export class OrbitLove implements INodeType {
 		...reportsDescription,
 		...usersDescription,
 		...workspacesDescription
-		],
-	};
+                ],
+        };
 }

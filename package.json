@@ -1,7 +1,7 @@
 {
   "name": "@n8n-dev/n8n-nodes-orbit-love",
-  "version": "1.0.1",
-  "description": "Please see the complete Orbit API documentation at https://api.orbit.love/",
+  "version": "1.0.2",
+  "description": "Consult Orbit API documentation at https://api.orbit.love/",
   "license": "MIT",
   "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-orbit-love",
   "keywords": [

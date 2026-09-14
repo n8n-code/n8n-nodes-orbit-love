@@ -1,7 +1,7 @@
 import type { INodeProperties } from 'n8n-workflow';
 
 export const activitiesDescription: INodeProperties[] = [
-		{
+                {
 			"displayName": "Operation",
 			"name": "operation",
 			"type": "options",
@@ -886,9 +886,7 @@ export const activitiesDescription: INodeProperties[] = [
 			"displayName": "Activity",
 			"name": "activity",
 			"type": "string",
-			"default": {
-				"member": {}
-			},
+			"default": "{\"member\":{}}",
 			"routing": {
 				"send": {
 					"property": "activity",
